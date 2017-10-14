@@ -157,37 +157,7 @@ def answer(src, dest):
                             # break
                             return 6
         # For 4 turn ############################
-
-
-
-
-
-
-
-
-
-
-
-
-            # for i2 in Moves(i, dest, 7):
-            #     print i2, 'print i2'
-            #     print Moves(i, dest, 7),"what is it ?"
-            #     for s in Moves(i2, dest, 7):
-            #        print s, 'print s'
-            #        if s == dest:
-            #            print "find", 'level3'
-            #            return 3
-            #            #break
-            #     for i3 in Moves(i2, dest, 7):
-            #         print i2, 'print i2'
-            #         print Moves(i2, dest, 7)   ,"what i3"
-            #         for s in Moves(i3, dest, 7):
-            #             print s,'print s3'
-            #             if s == dest:
-            #                 print "find", 'level4'
-            #                 return 4
-
-
+       
 def answer2(src, dest):
     # for i in range(0,1):
     # while dest ==genLegalMoves(src,dest,7):
@@ -229,10 +199,5 @@ def answer2(src, dest):
                     if s == dest:
                         print "find", 'level4'
                         return 4
-
-#print answer(32,38)#   44,56
-
-# for i in range(0,10):
-#     print answer(0,i)
 
 print answer(0,9)
