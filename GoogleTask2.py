@@ -1,3 +1,4 @@
+__author__ = 'rgagarin'
 def genLegalMoves1(x,y,bdSize):
     newMoves = []
     moveOffsets = [(-1,-2),(-1,2),(-2,-1),(-2,1),
